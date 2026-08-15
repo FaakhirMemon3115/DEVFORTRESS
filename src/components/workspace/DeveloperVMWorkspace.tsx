@@ -41,7 +41,7 @@ export const DeveloperVMWorkspace: React.FC = () => {
   const [simulatedModal, setSimulatedModal] = useState<{ title: string; message: string; type: 'blocked' | 'success' } | null>(null);
   const [isSubmitting, setIsSubmitting] = useState<boolean>(false);
   const [submissionStep, setSubmissionStep] = useState<string>('');
-  const [submittedHash, setSubmittedHash] = useState<string | null>(null);
+  const [, setSubmittedHash] = useState<string | null>(null);
 
   // Live timestamp for watermark
   const [currentTime, setCurrentTime] = useState<string>(new Date().toLocaleTimeString());
