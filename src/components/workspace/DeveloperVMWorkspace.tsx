@@ -3,21 +3,15 @@ import { useDevFortress } from '../../context/DevFortressContext';
 import { 
   Terminal as TerminalIcon, 
   Code, 
-  Play, 
-  GitBranch, 
   Copy, 
   Usb, 
   Globe, 
   Lock, 
-  CheckCircle2, 
   AlertTriangle, 
   Zap, 
   FileCode, 
   Send, 
-  Trash2,
-  HardDrive,
-  ShieldCheck,
-  RotateCcw
+  ShieldCheck
 } from 'lucide-react';
 
 export const DeveloperVMWorkspace: React.FC = () => {
