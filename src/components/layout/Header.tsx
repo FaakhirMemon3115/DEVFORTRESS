@@ -1,6 +1,6 @@
 import React from 'react';
 import { useDevFortress } from '../../context/DevFortressContext';
-import { Role } from '../../types/devfortress';
+import type { Role } from '../../types/devfortress';
 import { Shield, Server, Activity, UserCheck, Terminal, AlertTriangle } from 'lucide-react';
 
 export const Header: React.FC = () => {
