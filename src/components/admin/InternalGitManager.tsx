@@ -1,6 +1,6 @@
 import React from 'react';
 import { useDevFortress } from '../../context/DevFortressContext';
-import { GitBranch, GitCommit, Lock, CheckCircle2, ShieldCheck } from 'lucide-react';
+import { GitBranch, GitCommit, Lock, CheckCircle2 } from 'lucide-react';
 
 export const InternalGitManager: React.FC = () => {
   const { repositories } = useDevFortress();

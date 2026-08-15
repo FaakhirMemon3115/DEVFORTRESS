@@ -1,14 +1,12 @@
 import React, { useState } from 'react';
 import { useDevFortress } from '../../context/DevFortressContext';
-import { SecuritySeverity, SecurityEvent } from '../../types/devfortress';
+import type { SecurityEvent } from '../../types/devfortress';
 import { 
   ShieldAlert, 
   Filter, 
   Search, 
   CheckCircle2, 
-  XCircle, 
   AlertTriangle, 
-  Terminal, 
   Copy, 
   Usb, 
   Globe, 

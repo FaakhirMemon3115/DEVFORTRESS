@@ -5,15 +5,9 @@ import {
   Copy, 
   Usb, 
   Globe, 
-  Mail, 
-  Share2, 
-  ShieldCheck, 
   Eye, 
   Wifi, 
-  Smartphone, 
-  Check, 
-  X,
-  Server
+  Check
 } from 'lucide-react';
 
 export const SecurityCoreConfig: React.FC = () => {
@@ -140,7 +134,7 @@ export const SecurityCoreConfig: React.FC = () => {
 
             <div>
               <strong style={{ fontSize: '0.8rem', color: 'var(--text-muted)' }}>Approved Allow-List Domains:</strong>
-              <div style={{ display: 'flex', wrap: 'wrap', gap: '6px', marginTop: '6px' }}>
+              <div style={{ display: 'flex', flexWrap: 'wrap', gap: '6px', marginTop: '6px' }}>
                 {dlpPolicy.allowedDomains.map((domain, i) => (
                   <span key={i} className="badge badge-emerald" style={{ fontFamily: 'var(--font-mono)', fontSize: '0.7rem' }}>
                     ✓ {domain}
@@ -151,7 +145,7 @@ export const SecurityCoreConfig: React.FC = () => {
 
             <div>
               <strong style={{ fontSize: '0.8rem', color: 'var(--text-muted)' }}>Explicitly Blocked Categories:</strong>
-              <div style={{ display: 'flex', wrap: 'wrap', gap: '6px', marginTop: '6px' }}>
+              <div style={{ display: 'flex', flexWrap: 'wrap', gap: '6px', marginTop: '6px' }}>
                 {dlpPolicy.blockedDomains.map((domain, i) => (
                   <span key={i} className="badge badge-rose" style={{ fontFamily: 'var(--font-mono)', fontSize: '0.7rem' }}>
                     ❌ {domain}

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useDevFortress } from '../../context/DevFortressContext';
-import { VMInstance, VMStatus } from '../../types/devfortress';
+import type { VMStatus } from '../../types/devfortress';
 import { 
   Cpu, 
   Plus, 
@@ -8,10 +8,7 @@ import {
   Square, 
   Snowflake, 
   Trash2, 
-  RotateCcw, 
   ShieldCheck, 
-  AlertTriangle, 
-  Check,
   Server
 } from 'lucide-react';
 

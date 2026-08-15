@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useDevFortress } from '../../context/DevFortressContext';
-import { FileText, Search, Download, ShieldCheck, Hash } from 'lucide-react';
+import { FileText, Search, Download, Hash } from 'lucide-react';
 
 export const AuditSystem: React.FC = () => {
   const { auditLogs } = useDevFortress();

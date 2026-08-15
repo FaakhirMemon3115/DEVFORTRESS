@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { useDevFortress } from '../../context/DevFortressContext';
-import { Project } from '../../types/devfortress';
 import { 
   FolderLock, 
   Plus, 
@@ -119,7 +118,7 @@ export const VaultManager: React.FC = () => {
               </div>
 
               {/* Tech Stack tags */}
-              <div style={{ display: 'flex', wrap: 'wrap', gap: '6px', marginTop: '12px' }}>
+              <div style={{ display: 'flex', flexWrap: 'wrap', gap: '6px', marginTop: '12px' }}>
                 {proj.techStack.map((tech, i) => (
                   <span key={i} className="badge badge-indigo" style={{ fontSize: '0.65rem' }}>{tech}</span>
                 ))}
