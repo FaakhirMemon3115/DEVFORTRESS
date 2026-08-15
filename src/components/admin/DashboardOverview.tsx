@@ -7,7 +7,6 @@ import {
   CheckCircle2, 
   ShieldAlert, 
   Cpu, 
-  HardDrive, 
   Activity,
   ArrowUpRight
 } from 'lucide-react';
